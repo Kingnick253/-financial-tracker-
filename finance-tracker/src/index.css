@@ -11,3 +11,57 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #333;
+  color: #fff;
+}
+
+/* Logo */
+.navbar .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Navigation Links */
+.navbar .nav-links {
+  display: flex;
+  list-style-type: none;
+  gap: 1rem;
+}
+
+.navbar .nav-links a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  transition: background-color 0.3s;
+  border-radius: 4px;
+}
+
+.navbar .nav-links a:hover {
+  background-color: #555;
+}
+
+/* Auth Buttons */
+.navbar .auth-buttons {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.navbar .auth-buttons .button {
+  padding: 0.5rem 1rem;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.navbar .auth-buttons .button:hover {
+  background-color: #0056b3;
+}
