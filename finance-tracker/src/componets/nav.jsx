@@ -5,7 +5,7 @@ const nav = () => {
     return (
         <nav className="navbar">
           {/* Logo */}
-          <div className="logo">Fiance Tracker</div>
+          <div className="">Fiance Tracker</div>
     
           {/* Navigation Links */}
           <ul className="nav-links">
