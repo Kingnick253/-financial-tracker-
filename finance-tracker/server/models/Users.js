@@ -2,6 +2,7 @@ const mongoose = require('mongoose');
 // Import mongoose for MongoDB interaction
 // Define the user schema — this sets the structure for user documents in MongoDB
 const userSchema = new mongoose.Schema({
+
   email: {
     type:"String",
     required: true,  // Email is required
